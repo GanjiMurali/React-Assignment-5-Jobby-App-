@@ -1,0 +1,101 @@
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.profile-img {
+  height: 50px;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile-heading {
+  font-family: 'Roboto';
+  color: #6366f1;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.profile-description {
+  font-family: 'Roboto';
+  color: #475569;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.horizontal-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.employ-list {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.input-list {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.para-list-item {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.employment-type-list-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.employment-unOrder-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.retry-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.failure-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}

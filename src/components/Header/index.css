@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: #202020;
-  height: 10%;
+  height: 10vh;
 }
 
 .header-logo {
@@ -38,6 +38,7 @@
   border-radius: 6px;
   cursor: pointer;
   outline: none;
+  border: none;
 }
 
 .nav-link {
