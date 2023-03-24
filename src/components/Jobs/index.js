@@ -134,6 +134,7 @@ class Jobs extends Component {
           value={searchInput}
         />
         <button
+          data-testid="searchButton"
           onClick={this.searchInputButton}
           type="button"
           className="search-button"
@@ -194,6 +195,8 @@ class Jobs extends Component {
     )
   }
 
+  onClickRetry = () => this.getJobCardDetails()
+
   renderFailureInJobCard = () => (
     <div className="failure-container">
       <img
@@ -202,9 +205,13 @@ class Jobs extends Component {
       />
       <h1 className="failure-heading">Oops! Something Went Wrong</h1>
       <p className="failure-para">
-        We con not seem to find the page you are looking for.
+        We cannot seem to find the page you are looking for.
       </p>
-      <button className="retry-button" type="button">
+      <button
+        className="retry-button"
+        type="button"
+        onClick={this.onClickRetry}
+      >
         Retry
       </button>
     </div>

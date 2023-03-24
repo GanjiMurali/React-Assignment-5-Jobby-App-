@@ -1,0 +1,35 @@
+.similar-job {
+  padding: 20px;
+  background-color: #202020;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 10px;
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.similar-job-description {
+  flex-grow: 1;
+  color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 400;
+}
+.similar-job-logo-title-container {
+  display: flex;
+  align-items: center;
+}
+.similar-job-company {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+.similar-job-button {
+  background-color: transparent;
+  border-width: 0;
+}
+@media (max-width: 767px) {
+  .similar-job-company {
+    font-size: 16px;
+  }
+}

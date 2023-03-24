@@ -56,16 +56,22 @@ class FilterGroups extends Component {
 
     return (
       <div className="profile-container">
-        <img className="profile-img" src={profileImageUrl} alt="profile-img" />
+        <img className="profile-img" src={profileImageUrl} alt="profile" />
         <h1 className="profile-heading">{name}</h1>
         <p className="profile-description">{shortBio}</p>
       </div>
     )
   }
 
+  onClickProfileRetryButton = () => this.getJobsDetails()
+
   renderFailureButton = () => (
     <div className="failure-button">
-      <button className="retry-button" type="button">
+      <button
+        className="retry-button"
+        type="button"
+        onClick={this.onClickProfileRetryButton}
+      >
         Retry
       </button>
     </div>

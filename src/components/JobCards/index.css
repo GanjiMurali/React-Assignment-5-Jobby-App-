@@ -106,3 +106,7 @@
   color: #ffffff;
   font-size: 12px;
 }
+
+.nav-link {
+  text-decoration: none;
+}
